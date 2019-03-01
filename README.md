@@ -1,5 +1,5 @@
 # WEB system
-- [ ] Replace "WEB system" with your system name
+- [X] Replace "WEB system" with your system name
 
 ## Description
 - [ ] Provide WEB system description in few sentences - its purpose, users, etc.
