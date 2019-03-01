@@ -1,8 +1,6 @@
-# WEB system
-- [X] Replace "WEB system" with your system name
-
 ## Description
-- [ ] Provide WEB system description in few sentences - its purpose, users, etc.
+
+This web page will provovide a random family friendly joke. The user will be able to upvode and downvode jokes. There will also be a relevant image or a gif.
 
 ## Entity definition
 - [ ] Define the entity ("object" that will be manipulated) of WEB system
