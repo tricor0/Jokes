@@ -5,7 +5,7 @@ This system will provovide a random family friendly jokes. The user will be able
 ## Entity definition
 Joke:
 - id - number, min - 1, max - 1000000
-- type - string, 15 char length, lower case (eg.: family, programming)
+- type - string, 50 char length, lower case (eg.: family, programming)
 - setup - string, 200 char length
 - punchline - string, 200 char length
 - points - number, min - -5000, max - 5000
@@ -18,6 +18,7 @@ GET /api/1/joke/:id - will return joke of this particular id
 
 POST /api/1/joke/newJoke - will allow to add a new joke
 - 409- {error: 'this ID is already in use'}
+- 409- {error: 'type size is invalid'}
 - 409- {error: 'setup size is invalid'}
 - 409- {error: 'punchline size is invalid'}
 
