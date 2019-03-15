@@ -2,6 +2,8 @@
 
 This system will provovide a random family friendly jokes. The user will be able to upvote and downvote jokes. There will also be a relevant image or a gif.
 
+gify - api the allows you to searxh for images
+
 ## Entity definition
 Joke:
 - id - number, min - 1, max - 1000000
@@ -25,7 +27,7 @@ POST /api/1/joke/newJoke - will allow to add a new joke
 GET /api/1/joke/topTen - will return ten jokes with the most points
 - 400 - {error: 'invalid joke ID'}
 
-GET /api/1/joke/id/like - will increace point counter
+POST /api/1/joke/id/like - will increace or decrease point counter
 - 400 - {error: 'invalid joke ID'}
 
 DELETE /api/1/joke/:id - will delete joke with this particular id
