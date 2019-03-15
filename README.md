@@ -25,6 +25,9 @@ POST /api/1/joke/newJoke - will allow to add a new joke
 GET /api/1/joke/topTen - will return ten jokes with the most points
 - 400 - {error: 'invalid joke ID'}
 
+GET /api/1/joke/id/like - will increace point counter
+- 400 - {error: 'invalid joke ID'}
+
 DELETE /api/1/joke/:id - will delete joke with this particular id
 - 400 - {error: 'invalid joke ID'}
 
