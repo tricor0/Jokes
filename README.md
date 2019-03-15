@@ -15,12 +15,15 @@ Joke:
 
 GET /api/1/joke/:id - will return joke of this particular id
 - 400 - {error: 'invalid joke ID'}
+
 POST /api/1/joke/newJoke - will allow to add a new joke
 - 409- {error: 'this ID is already in use'}
 - 409- {error: 'setup size is invalid'}
 - 409- {error: 'punchline size is invalid'}
+
 GET /api/1/joke/topTen - will return ten jokes with the most points
 - 400 - {error: 'invalid joke ID'}
+
 DELETE /api/1/joke/:id - will delete joke with this particular id
 - 400 - {error: 'invalid joke ID'}
 
